@@ -120,11 +120,11 @@ menus:
 
 params:
   # Basic site info with SEO
-  description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
-  keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
-  defaultAuthor: "Hugo Narrow"
+  description: "Dariön Yaphet's personal blog about technology, data science, programming, and software development. Sharing insights and tutorials on modern tech stack."
+  keywords: ["technology", "data science", "programming", "software development", "DuckDB", "Hugo", "web development", "data analysis", "database"]
+  defaultAuthor: "Dariön Yaphet"
   language: "en-US"
-  shortName: "Hugo Narrow"  # PWA
+  shortName: "Dariön's Blog"  # PWA
   images:
   - "/images/og-default.avif"
 
@@ -136,19 +136,19 @@ params:
 
 
   author:
-    name: "Hugo Narrow"
-    title: "A Clean and Minimal Hugo Theme"
-    description: "Focused on content and user experience."
+    name: "Dariön Yaphet"
+    title: "Tech Enthusiast & Data Scientist"
+    description: "Exploring technology, data science, and software development. Sharing knowledge and insights through technical blog posts."
     avatar: "/images/avatar.svg"
     social:
       - name: "GitHub"
-        url: "https://github.com/username"
+        url: "https://github.com/darion-yaphet"
         icon: "github"
       - name: "Twitter"
         url: "https://twitter.com/username"
         icon: "twitter"
       - name: "Email"
-        url: "mailto:hello@example.com"
+        url: "mailto:darion.yaphet@example.com"
         icon: "email"
 
   # UI Components Control
