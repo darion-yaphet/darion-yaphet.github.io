@@ -30,12 +30,12 @@ $$\sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n$$
 ## Mermaid 图表测试
 
 ```mermaid
-graph TD;
-    A[开始] --> B{判断条件};
-    B -->|条件1| C[执行操作1];
-    B -->|条件2| D[执行操作2];
-    C --> E[结束];
-    D --> E;
+graph TD
+    A[开始] --> B{判断条件}
+    B -->|条件1| C[执行操作1]
+    B -->|条件2| D[执行操作2]
+    C --> E[结束]
+    D --> E
 ```
 
 ```mermaid
@@ -43,7 +43,7 @@ sequenceDiagram
     participant U as 用户
     participant B as 浏览器
     participant S as 服务器
-    
+
     U->>B: 输入网址
     B->>S: 发送请求
     S-->>B: 返回页面
