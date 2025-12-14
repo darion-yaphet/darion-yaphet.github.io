@@ -282,7 +282,7 @@ params:
 
 
   katex:
-    enabled: false
+    enabled: true
     delimiters:
       - left: "$$"
         right: "$$"
@@ -296,9 +296,9 @@ params:
       - left: "\\["
         right: "\\]"
         display: true
-      
+
   mermaid:
-    enabled: false
+    enabled: true
 
   # GLightbox
   lightbox:
